@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Md Shakib Hossain</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Light background */
+            color: #000000; /* Black text */
+        }
+
+        .resume-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #f0f0f0; /* Light background for the resume container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: flex; /* Enable flexbox for layout */
+            flex-direction: row; /* Arrange items in a row */
+            gap: 20px; /* Space between the profile and content */
+        }
+
+        header {
+            flex: 1; /* Allow header to grow */
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #444; /* Darker border */
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 5px solid #ffee00; /* Yellow border for premium look */
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Soft blue shadow */
+        }
+
+        .profile-info {
+            flex: 2; /* Allow content to take more space */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #333333; /* Dark gray subtitle */
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: inherit; /* Use inherit to follow the text color */
+        }
+
+        .contact-info p {
+            margin: 6px 0;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #007bff; /* Blue on hover */
+        }
+
+        section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #444; /* Darker border for sections */
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .skills-list, .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills-list li, .languages-list li {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+            padding: 6px 15px;
+            border-radius: 15px;
+            color: #000000; /* Black text for skills and languages */
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #0a7fb1;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #007bff; /* Blue on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column; /* Stack elements vertically on smaller screens */
+                padding: 15px;
+            }
+
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Md Shakib Hossain</h1>
+            <h3 class="white">Full stack Web Developer</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:programmingshakib@gmail.com">programmingshakib@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+8801571508663">+8801571508663</a></p>
+                <p><i class="fas fa-globe"></i> Website: <a href="https://git-shakib.github.io/my/" target="_blank">Shakib.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/AcQUt7fgzZrs8Lxp6" target="_blank">Dhaka, Bangladesh</a></p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/shihabhossain1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/shihabhossain17" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://youtube.com/your-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="mailto:shehab.hossain267@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </header>
+
+        <div class="profile-info">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    I'm Shakib Hossain, a Full Stack Developer specializing in Python, Django, Flask, Vue.js, and Bootstrap. I offer professional web development services with a strong emphasis on clean, SEO-friendly code to ensure your website performs optimally.
+                </p>
+            </section>
+
+            <section>
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Jan 2024 - Present</strong><br>
+                        <em><a href="https://www.mohuls.com" target="_blank">Mohuls Soft Limited</a></em> - Senior Software Engineer, Dhaka, Bangladesh
+                        <ul>
+                            <li>Developed large-scale software solutions for enterprise clients.</li>
+                            <li>Collaborated with cross-functional teams to develop custom software applications.</li>
+                            <li>Managed client communications and delivered tailored solutions.</li>
+                            <li>Mentored junior developers.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Jul 2022 - Aug 2023</strong><br>
+                        <em>Timmerman Industries</em> - Sales Agent
+                        <ul>
+                            <li>Visited corporate client offices to offer products.</li>
+                            <li>Built relationships with clients.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Warehouse</strong> - Designed and implemented a comprehensive system for managing inventory and operations in a warehouse.
+                        <br><a href="https://www.Warehouse.com" target="_blank">View Project</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>2023 - Present</strong><br><em>BA Honours</em> - National University</li>
+                    <li><strong>Completed Web Development Program</strong><br><em>10 Minute Program</em> - IT Institute</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+                    <li><strong>Backend:</strong> Python, Django, Flask</li>
+                    <li><strong>Server:</strong> Linux, Ubuntu, Heroku</li>
+                    <li><strong>Database:</strong> MySQL, PostgreSQL</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <ul class="languages-list">
+                    <li>English</li>
+                    <li>Bangla</li>
+                    <li>Hindi</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
